@@ -3,7 +3,11 @@ import "./styles/global.scss";
 import RepositoryList from "./components/RepositoryList";
 
 function App() {
-  return <RepositoryList />;
+  return (
+    <>
+      <RepositoryList />
+    </>
+  );
 }
 
 export default App;
